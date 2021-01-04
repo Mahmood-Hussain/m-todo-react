@@ -8,7 +8,6 @@ import {
   Modal,
   Button,
   FormControl,
-  FormHelperText,
   Grid,
   Input,
   InputLabel,
@@ -20,6 +19,7 @@ import EditIcon from "@material-ui/icons/Edit";
 import moment from "moment";
 import React, { useEffect, useState } from "react";
 import db from "./firebase";
+import { useTitle } from "./titleUtil";
 
 function getModalStyle() {
   const top = 50;
@@ -33,6 +33,7 @@ function getModalStyle() {
 }
 
 function Todo(props) {
+  useTitle("mTodo App");
   const [checked, setChecked] = useState(false);
   const [open, setOpen] = useState(false);
   const [modalStyle] = useState(getModalStyle);

@@ -51,7 +51,7 @@ function App() {
       <form action="">
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <h1>Hello World</h1>
+            <h1>mTodo App</h1>
           </Grid>
           <Grid item xs={12} md={7}>
             <FormControl fullWidth={true}>
