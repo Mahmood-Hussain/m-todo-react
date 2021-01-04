@@ -1,0 +1,17 @@
+# firebase
+# react
+# todo app
+# database
+# deply online
+
+# never touch the node modules
+# we are mostly interested in the src folder
+# keep things clean
+
+# state is a short term memory
+# state is component specific
+# prop
+
+# what I want to add to it more
+1. Date and Time to complete the todo
+2. Mark TODO as completed (strike through it)
